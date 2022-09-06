@@ -1,10 +1,10 @@
-package com.raiseup.springbank.user.core;
+package com.raiseup.springbank.user.cmd.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class UserCommandApplicationTests {
 
 	@Test
 	void contextLoads() {

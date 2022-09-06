@@ -7,6 +7,12 @@
     <groupId>com.raiseup.springbank</groupId>
     <artifactId>user-managment</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>user.cmd.api</module>
+        <module>user.quary.api</module>
+        <module>user.core</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

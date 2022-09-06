@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.raiseup.springbank</groupId>
 	<artifactId>user.core</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>user.core</name>
 	<description>User core</description>
 	<properties>
@@ -41,23 +41,17 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-spring-boot-starter</artifactId>
+			<version>4.5.15</version>
+		</dependency>
+		<dependency>
+			<groupId>org.axonframework.extensions.mongo</groupId>
+			<artifactId>axon-mongo</artifactId>
+			<version>4.5</version>
+		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
